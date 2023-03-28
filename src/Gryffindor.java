@@ -1,7 +1,7 @@
 public class Gryffindor extends Hogwarts {
-    private  int nobility;
-    private  int honor;
-    private  int bravery;
+    private int nobility;
+    private int honor;
+    private int bravery;
 
     public Gryffindor(String firstName, String surName, int powerOfMagic, int transgression, int nobility, int honor,
                       int bravery) {
@@ -34,9 +34,15 @@ public class Gryffindor extends Hogwarts {
     public void setBravery(int bravery) {
         this.bravery = bravery;
     }
+
+    public int getGradeGryffindor() {
+        int gradeGryffindor = powerOfMagic + transgression + nobility + honor + bravery;
+        return gradeGryffindor;
+    }
+
     public String toString() {
         return "\nГриффиндор: " + firstName + " " + surName + " (cила магии: " + powerOfMagic +
-                "; расстояние трансгресии: "  + transgression + "; благородство: "  + nobility + "; честь: " + honor +
+                "; расстояние трансгресии: " + transgression + "; благородство: " + nobility + "; честь: " + honor +
                 "; храбрость: " + bravery + ")";
     }
 }

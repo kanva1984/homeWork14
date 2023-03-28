@@ -51,6 +51,6 @@ public class Main {
         Methods.comparisonOfTwoStudentsOfHufflepuff(hufflepuffs[0], hufflepuffs[2]);
         Methods.comparisonOfTwoStudentsOfRavenclaw(ravenclaws[1], ravenclaws[2]);
         Methods.comparisonOfTwoStudentsOfSlytherin(slytherins[0], slytherins[1]);
-        Methods.comparisonOfTwoStudentsOfHogwarts(students[5], students[9]);
+        Methods.comparisonOfTwoStudentsOfHogwarts(students[5], students[10]);
     }
 }

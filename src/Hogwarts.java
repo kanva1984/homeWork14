@@ -39,6 +39,10 @@ public class Hogwarts {
         return transgression;
     }
 
+    public int getGradeHogwarts() {
+        int gradeHogwarts = powerOfMagic + transgression;
+        return gradeHogwarts;
+    }
     public void setTransgression(int transgression) {
         this.transgression = transgression;
     }

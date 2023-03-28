@@ -34,6 +34,10 @@ public class Hufflepuff extends Hogwarts{
     public void setHonesty(int honesty) {
         this.honesty = honesty;
     }
+    public int getGradeHufflepuff() {
+        int gradeHufflepuff = powerOfMagic + transgression + industriousness + loyalty + honesty ;
+        return gradeHufflepuff;
+    }
     public String toString() {
         return "\nПуффендуй: " + firstName + " " + surName + " (cила магии: " + powerOfMagic +
                 "; расстояние трансгресии: " + transgression + "; трудолюбие: "+ industriousness +
